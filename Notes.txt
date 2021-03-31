@@ -1,0 +1,17 @@
+11.5.5 Pack Tracer
+    192.168.0.0 /24
+    LAN-A 50hosts
+    LAN-B 40hosts
+    LAN-FutureA
+    LAN-FutureB
+
+    64 hosts need 
+        6bits
+
+    4 subnets need
+        2bits
+
+    192.168.0.192 /26
+    192.168.0.128 /26
+    192.168.0.64 /26
+    192.168.0.0 /26
