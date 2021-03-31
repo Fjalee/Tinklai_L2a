@@ -27,4 +27,40 @@
 
     11111111 11111111 11111111 11100000
     255.255.255.224
+
+11.9.3 Packet Tracer
+    172.31.103.0 /24
+
+    27 host
+    25 hosts
+    14 hosts
+    8 hosts
     
+    5subnets
+
+    172.31.103.0 /27     Room-114 30hosts /27 mask
+    172.31.103.32 /27     Room-279 30hosts /27 mask
+    172.31.103.64 /28     Room-312 14hosts /28 mask
+    172.31.103.80 /28     Room-407 14hosts /28 mask
+    172.31.103.96 /30     Branch1-Branch2 2hosts /30 mask
+    
+    split 256 hosts into 8 parts 32 each
+        1st split subnet1
+            0000 0000 /27
+        2nd split subnet2
+            0010 0000 /27
+        3rd split
+            0100 0000 /27
+            split into 2
+                3.1 split subnet3
+                    0100 0000 /28
+                3.2 split subnet4
+                    0101 0000 /28
+        4th split
+            0110 0000 /27
+            split into 8
+                4.1 subnet5
+                    0110 0000 /28
+                
+
+
