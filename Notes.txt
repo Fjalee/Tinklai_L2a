@@ -147,3 +147,10 @@ R1 to R2 link network   2001:db8:acad:00cc::0/64
 16.5.1 Packet Tracer
     
 17.5.9 Packet Tracer
+
+17.7.7 Packet Tracer
+    PC-01
+        pings to other PCs failed
+        pings to router failed
+        pings to default-gatway failed
+        
