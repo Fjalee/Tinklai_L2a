@@ -124,5 +124,16 @@
     10.1.1.120 /30
                 
 12.6.6 Packet Tracer
+
+
+12.9.1 Packet Tracer
+    2001:db8:acad:00c8::/64
+    
+R1 G0/0 LAN   2001:db8:acad:00c8::0/64
+R1 G0/1 LAN   2001:db8:acad:00c9::0/64
+R2 G0/0 LAN   2001:db8:acad:00ca::0/64
+R2 G0/1 LAN   2001:db8:acad:00cb::0/64
+R1 to R2 link network   2001:db8:acad:00cc::0/64
+
     
     
