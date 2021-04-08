@@ -153,4 +153,11 @@ R1 to R2 link network   2001:db8:acad:00cc::0/64
         pings to other PCs failed
         pings to router failed
         pings to default-gatway failed
-        
+
+17.8.2 Packet Tracer
+    192.168.0.0/24
+
+    Staff 100  192.168.0.0   255.255.255.128
+    Sales 50   192.168.0.128   255.255.255.192
+    IT 25      192.168.0.192  255.255.255.224
+    
