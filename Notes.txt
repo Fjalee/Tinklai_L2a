@@ -136,4 +136,11 @@ R2 G0/1 LAN   2001:db8:acad:00cb::0/64
 R1 to R2 link network   2001:db8:acad:00cc::0/64
 
     
+13.2.6 Packet Tracer
+
+13.2.7 Packet Tracer
+
+
+    
+    
     
